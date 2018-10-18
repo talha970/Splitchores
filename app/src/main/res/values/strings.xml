@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">Splitchores</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Groups</string>
+    <string name="title_dashboard">Friends</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">Sign in</string>
+    <!--Login-->
+    <string name="login_dummy">Login Dummy</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="invalid_email_password">Invalid email or password</string>
+    <string name="base_url_staging">http://192.168.1.104:3000</string>
+    <string name="base_url">tbd.com</string>
+    <string name="failed_login">Failed to Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="main_tasks_text">You have %s tasks to do</string>
+
+</resources>

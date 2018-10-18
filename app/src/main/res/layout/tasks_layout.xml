@@ -1,0 +1,32 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+
+        <variable
+            name="viewModel"
+            type="com.split.osiris.splitchores.ui.main.MainViewModel" />
+
+        <variable
+            name="fragment"
+            type="com.split.osiris.splitchores.ui.tasks.TasksFragment" />
+    </data>
+
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.tasks.TasksFragment">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvTasks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            />
+
+
+    </FrameLayout>
+</layout>
